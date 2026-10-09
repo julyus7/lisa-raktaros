@@ -1,0 +1,72 @@
+{
+  "input": "20 real COPS A/D keys",
+  "sampled_frames": 16,
+  "scope": "unchanged board cells; excludes player cells and counters",
+  "limitation": "sampled frames, not a continuous video measurement",
+  "frames": [
+    {
+      "frame": 1,
+      "static_board_unchanged": true
+    },
+    {
+      "frame": 2,
+      "static_board_unchanged": true
+    },
+    {
+      "frame": 3,
+      "static_board_unchanged": true
+    },
+    {
+      "frame": 4,
+      "static_board_unchanged": true
+    },
+    {
+      "frame": 5,
+      "static_board_unchanged": true
+    },
+    {
+      "frame": 6,
+      "static_board_unchanged": true
+    },
+    {
+      "frame": 7,
+      "static_board_unchanged": true
+    },
+    {
+      "frame": 8,
+      "static_board_unchanged": true
+    },
+    {
+      "frame": 9,
+      "static_board_unchanged": true
+    },
+    {
+      "frame": 10,
+      "static_board_unchanged": true
+    },
+    {
+      "frame": 11,
+      "static_board_unchanged": true
+    },
+    {
+      "frame": 12,
+      "static_board_unchanged": true
+    },
+    {
+      "frame": 13,
+      "static_board_unchanged": true
+    },
+    {
+      "frame": 14,
+      "static_board_unchanged": true
+    },
+    {
+      "frame": 15,
+      "static_board_unchanged": true
+    },
+    {
+      "frame": 16,
+      "static_board_unchanged": true
+    }
+  ]
+}

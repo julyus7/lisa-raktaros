@@ -1,0 +1,102 @@
+[
+  {
+    "level": 1,
+    "moves": "awwawasswddwdddssssasddwdwwwdwadsssssa",
+    "pushes": 14
+  },
+  {
+    "level": 2,
+    "moves": "ssdsdwwdwaaasawawddddddddwdsssaasaaasaawdsdwwwwawddsdwasasssdsddddwaaaaaa",
+    "pushes": 36
+  },
+  {
+    "level": 3,
+    "moves": "ddsssdssdddwwwdwaawwdsssdsaasdsaaawa",
+    "pushes": 14
+  },
+  {
+    "level": 4,
+    "moves": "asawawwddsaaaaawaasddwdssssassddwwssddwasawdsaaawddddsdwwww",
+    "pushes": 25
+  },
+  {
+    "level": 5,
+    "moves": "sdwwwwawwdssasddssddddd",
+    "pushes": 13
+  },
+  {
+    "level": 6,
+    "moves": "saawasssasdddddwwddssaaddwwasasaaasaawdsdwwwwsddwwddssdssaaaddwsasawaawaasddddsdw",
+    "pushes": 34
+  },
+  {
+    "level": 7,
+    "moves": "asasddsddddwwwwdwawaassssdddwwwwaaasdwdssssasaaasawawdddawaawawwdddss",
+    "pushes": 23
+  },
+  {
+    "level": 8,
+    "moves": "wwaawwddssdsaaaaaaaddwwddsdddsassaasaawasawwawwdwwaasswdddd",
+    "pushes": 22
+  },
+  {
+    "level": 9,
+    "moves": "sssswwwddwddssdssasddsdwwwwdwadwaasssswdssaasaaaawwww",
+    "pushes": 25
+  },
+  {
+    "level": 10,
+    "moves": "dwwsdddddsdwwwdwaaadwwaaaasdddwdsssswwwaasssdsaadsdwdsdwwwww",
+    "pushes": 32
+  },
+  {
+    "level": 11,
+    "moves": "aaaaaaasawwwwsdw",
+    "pushes": 12
+  },
+  {
+    "level": 12,
+    "moves": "ddsssaaawasdsaaaaawwawddsdssdwwwaawasssasdddddsdwwdwaaaadddsssasaawwwdsssaaaawwssdww",
+    "pushes": 39
+  },
+  {
+    "level": 13,
+    "moves": "awwwwdwaaaaaaddssasssdwww",
+    "pushes": 13
+  },
+  {
+    "level": 14,
+    "moves": "aaasaawwawdsssaawdsaaawddsddwdsdwwwwddwwaassdsawas",
+    "pushes": 17
+  },
+  {
+    "level": 15,
+    "moves": "awasawaaassdssasddddd",
+    "pushes": 10
+  },
+  {
+    "level": 16,
+    "moves": "wsdddddsddwwwwaaswddddsaasssssaawaaasawww",
+    "pushes": 13
+  },
+  {
+    "level": 17,
+    "moves": "wwsddwwwawdsdwsaasassaawwddddddssdddwwwassdssawwwdwaaaaasaawdsaaawddsddwwsaasaasdawwwdsasddddsdwwdsdwdssdssawwwdwaa",
+    "pushes": 47
+  },
+  {
+    "level": 18,
+    "moves": "awwdwwsaasaaaadsaawwwawwdssssasdwddssawwwdwwdssdsaaasawwwawwdsswdsssdsawawassd",
+    "pushes": 38
+  },
+  {
+    "level": 19,
+    "moves": "sddwwsasaawdsawwwdsdwwdssddssdwdwawasdwwwdwddsssasdsawaassaaawaadsaaww",
+    "pushes": 19
+  },
+  {
+    "level": 20,
+    "moves": "sddssaaaaaaawaasddddawawdwdsddssdwwddsssasawawaaaasawdddsdddwwwddssasdsaadwwdwwwwaasssaaawaaasawwwdssassddddaaawwsawwwdssasdd",
+    "pushes": 46
+  }
+]

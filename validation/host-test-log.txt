@@ -1,0 +1,21 @@
+PASS level 01: 180 moves, 32 pushes; inverse undo restored start
+PASS level 02: 195 moves, 36 pushes; inverse undo restored start
+PASS level 03: 210 moves, 22 pushes; inverse undo restored start
+PASS level 04: 158 moves, 25 pushes; inverse undo restored start
+PASS level 05: 240 moves, 13 pushes; inverse undo restored start
+PASS level 06: 255 moves, 44 pushes; inverse undo restored start
+PASS level 07: 270 moves, 23 pushes; inverse undo restored start
+PASS level 08: 285 moves, 22 pushes; inverse undo restored start
+PASS level 09: 234 moves, 25 pushes; inverse undo restored start
+PASS level 10: 315 moves, 34 pushes; inverse undo restored start
+PASS level 11: 330 moves, 12 pushes; inverse undo restored start
+PASS level 12: 345 moves, 39 pushes; inverse undo restored start
+PASS level 13: 360 moves, 13 pushes; inverse undo restored start
+PASS level 14: 375 moves, 17 pushes; inverse undo restored start
+PASS level 15: 36 moves, 10 pushes; inverse undo restored start
+PASS level 16: 228 moves, 13 pushes; inverse undo restored start
+PASS level 17: 381 moves, 47 pushes; inverse undo restored start
+PASS level 18: 435 moves, 38 pushes; inverse undo restored start
+PASS level 19: 450 moves, 23 pushes; inverse undo restored start
+PASS level 20: 465 moves, 46 pushes; inverse undo restored start
+PASS: 5747 constructive solution moves; 20 levels are solvable.

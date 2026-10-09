@@ -1,0 +1,2088 @@
+{
+  "native_os": "Lisa Office System 3.1",
+  "input": "emulated COPS keyboard",
+  "state_access": "read only physical RAM",
+  "levels_solved": 20,
+  "solution_moves": 1176,
+  "checks": 60,
+  "events": [
+    {
+      "test": "restart",
+      "expected": {
+        "level": 1,
+        "boxes": [
+          28,
+          32,
+          58
+        ],
+        "person": 54,
+        "steps": 0,
+        "pushes": 0,
+        "done": false
+      },
+      "native": {
+        "ram_offset": 0,
+        "board_offset": 6384,
+        "level": 1,
+        "person": 54,
+        "boxes": [
+          28,
+          32,
+          58
+        ],
+        "steps": 0,
+        "pushes": 0,
+        "history_head": 0,
+        "history_count": 0,
+        "done": false,
+        "ready": true,
+        "painted": true
+      }
+    },
+    {
+      "test": "wall rejection",
+      "expected": {
+        "level": 1,
+        "boxes": [
+          28,
+          32,
+          58
+        ],
+        "person": 42,
+        "steps": 1,
+        "pushes": 0,
+        "done": false
+      },
+      "native": {
+        "ram_offset": 0,
+        "board_offset": 6384,
+        "level": 1,
+        "person": 42,
+        "boxes": [
+          28,
+          32,
+          58
+        ],
+        "steps": 1,
+        "pushes": 0,
+        "history_head": 1,
+        "history_count": 1,
+        "done": false,
+        "ready": true,
+        "painted": true
+      }
+    },
+    {
+      "test": "60 repeated wall keys",
+      "expected": {
+        "level": 1,
+        "boxes": [
+          28,
+          32,
+          58
+        ],
+        "person": 42,
+        "steps": 1,
+        "pushes": 0,
+        "done": false
+      },
+      "native": {
+        "ram_offset": 0,
+        "board_offset": 6384,
+        "level": 1,
+        "person": 42,
+        "boxes": [
+          28,
+          32,
+          58
+        ],
+        "steps": 1,
+        "pushes": 0,
+        "history_head": 1,
+        "history_count": 1,
+        "done": false,
+        "ready": true,
+        "painted": true
+      }
+    },
+    {
+      "test": "undo walk",
+      "expected": {
+        "level": 1,
+        "boxes": [
+          28,
+          32,
+          58
+        ],
+        "person": 54,
+        "steps": 0,
+        "pushes": 0,
+        "done": false
+      },
+      "native": {
+        "ram_offset": 0,
+        "board_offset": 6384,
+        "level": 1,
+        "person": 54,
+        "boxes": [
+          28,
+          32,
+          58
+        ],
+        "steps": 0,
+        "pushes": 0,
+        "history_head": 2048,
+        "history_count": 0,
+        "done": false,
+        "ready": true,
+        "painted": true
+      }
+    },
+    {
+      "test": "load 01",
+      "expected": {
+        "level": 1,
+        "boxes": [
+          28,
+          32,
+          58
+        ],
+        "person": 54,
+        "steps": 0,
+        "pushes": 0,
+        "done": false
+      },
+      "native": {
+        "ram_offset": 0,
+        "board_offset": 6384,
+        "level": 1,
+        "person": 54,
+        "boxes": [
+          28,
+          32,
+          58
+        ],
+        "steps": 0,
+        "pushes": 0,
+        "history_head": 2048,
+        "history_count": 0,
+        "done": false,
+        "ready": true,
+        "painted": true
+      }
+    },
+    {
+      "test": "solution 01 at 38",
+      "expected": {
+        "level": 1,
+        "boxes": [
+          21,
+          51,
+          81
+        ],
+        "person": 82,
+        "steps": 38,
+        "pushes": 14,
+        "done": true
+      },
+      "native": {
+        "ram_offset": 0,
+        "board_offset": 6384,
+        "level": 1,
+        "person": 82,
+        "boxes": [
+          21,
+          51,
+          81
+        ],
+        "steps": 38,
+        "pushes": 14,
+        "history_head": 38,
+        "history_count": 38,
+        "done": true,
+        "ready": true,
+        "painted": true
+      }
+    },
+    {
+      "test": "completed level rejects moves",
+      "expected": {
+        "level": 1,
+        "boxes": [
+          21,
+          51,
+          81
+        ],
+        "person": 82,
+        "steps": 38,
+        "pushes": 14,
+        "done": true
+      },
+      "native": {
+        "ram_offset": 0,
+        "board_offset": 6384,
+        "level": 1,
+        "person": 82,
+        "boxes": [
+          21,
+          51,
+          81
+        ],
+        "steps": 38,
+        "pushes": 14,
+        "history_head": 38,
+        "history_count": 38,
+        "done": true,
+        "ready": true,
+        "painted": true
+      }
+    },
+    {
+      "test": "undo winning push",
+      "expected": {
+        "level": 1,
+        "boxes": [
+          21,
+          51,
+          82
+        ],
+        "person": 83,
+        "steps": 37,
+        "pushes": 13,
+        "done": false
+      },
+      "native": {
+        "ram_offset": 0,
+        "board_offset": 6384,
+        "level": 1,
+        "person": 83,
+        "boxes": [
+          21,
+          51,
+          82
+        ],
+        "steps": 37,
+        "pushes": 13,
+        "history_head": 37,
+        "history_count": 37,
+        "done": false,
+        "ready": true,
+        "painted": true
+      }
+    },
+    {
+      "test": "win again",
+      "expected": {
+        "level": 1,
+        "boxes": [
+          21,
+          51,
+          81
+        ],
+        "person": 82,
+        "steps": 38,
+        "pushes": 14,
+        "done": true
+      },
+      "native": {
+        "ram_offset": 0,
+        "board_offset": 6384,
+        "level": 1,
+        "person": 82,
+        "boxes": [
+          21,
+          51,
+          81
+        ],
+        "steps": 38,
+        "pushes": 14,
+        "history_head": 38,
+        "history_count": 38,
+        "done": true,
+        "ready": true,
+        "painted": true
+      }
+    },
+    {
+      "test": "undo whole solved level",
+      "expected": {
+        "level": 1,
+        "boxes": [
+          28,
+          32,
+          58
+        ],
+        "person": 54,
+        "steps": 0,
+        "pushes": 0,
+        "done": false
+      },
+      "native": {
+        "ram_offset": 0,
+        "board_offset": 6384,
+        "level": 1,
+        "person": 54,
+        "boxes": [
+          28,
+          32,
+          58
+        ],
+        "steps": 0,
+        "pushes": 0,
+        "history_head": 2048,
+        "history_count": 0,
+        "done": false,
+        "ready": true,
+        "painted": true
+      }
+    },
+    {
+      "test": "space restarts",
+      "expected": {
+        "level": 1,
+        "boxes": [
+          28,
+          32,
+          58
+        ],
+        "person": 54,
+        "steps": 0,
+        "pushes": 0,
+        "done": false
+      },
+      "native": {
+        "ram_offset": 0,
+        "board_offset": 6384,
+        "level": 1,
+        "person": 54,
+        "boxes": [
+          28,
+          32,
+          58
+        ],
+        "steps": 0,
+        "pushes": 0,
+        "history_head": 0,
+        "history_count": 0,
+        "done": false,
+        "ready": true,
+        "painted": true
+      }
+    },
+    {
+      "test": "load 02",
+      "expected": {
+        "level": 2,
+        "boxes": [
+          77,
+          80,
+          82
+        ],
+        "person": 52,
+        "steps": 0,
+        "pushes": 0,
+        "done": false
+      },
+      "native": {
+        "ram_offset": 0,
+        "board_offset": 6384,
+        "level": 2,
+        "person": 52,
+        "boxes": [
+          77,
+          80,
+          82
+        ],
+        "steps": 0,
+        "pushes": 0,
+        "history_head": 0,
+        "history_count": 0,
+        "done": false,
+        "ready": true,
+        "painted": true
+      }
+    },
+    {
+      "test": "solution 02 at 64",
+      "expected": {
+        "level": 2,
+        "boxes": [
+          20,
+          82,
+          83
+        ],
+        "person": 93,
+        "steps": 64,
+        "pushes": 29,
+        "done": false
+      },
+      "native": {
+        "ram_offset": 0,
+        "board_offset": 6384,
+        "level": 2,
+        "person": 93,
+        "boxes": [
+          20,
+          82,
+          83
+        ],
+        "steps": 64,
+        "pushes": 29,
+        "history_head": 64,
+        "history_count": 64,
+        "done": false,
+        "ready": true,
+        "painted": true
+      }
+    },
+    {
+      "test": "solution 02 at 73",
+      "expected": {
+        "level": 2,
+        "boxes": [
+          20,
+          71,
+          76
+        ],
+        "person": 77,
+        "steps": 73,
+        "pushes": 36,
+        "done": true
+      },
+      "native": {
+        "ram_offset": 0,
+        "board_offset": 6384,
+        "level": 2,
+        "person": 77,
+        "boxes": [
+          20,
+          71,
+          76
+        ],
+        "steps": 73,
+        "pushes": 36,
+        "history_head": 73,
+        "history_count": 73,
+        "done": true,
+        "ready": true,
+        "painted": true
+      }
+    },
+    {
+      "test": "load 03",
+      "expected": {
+        "level": 3,
+        "boxes": [
+          34,
+          42,
+          82
+        ],
+        "person": 28,
+        "steps": 0,
+        "pushes": 0,
+        "done": false
+      },
+      "native": {
+        "ram_offset": 0,
+        "board_offset": 6384,
+        "level": 3,
+        "person": 28,
+        "boxes": [
+          34,
+          42,
+          82
+        ],
+        "steps": 0,
+        "pushes": 0,
+        "history_head": 0,
+        "history_count": 0,
+        "done": false,
+        "ready": true,
+        "painted": true
+      }
+    },
+    {
+      "test": "solution 03 at 36",
+      "expected": {
+        "level": 3,
+        "boxes": [
+          44,
+          68,
+          77
+        ],
+        "person": 78,
+        "steps": 36,
+        "pushes": 14,
+        "done": true
+      },
+      "native": {
+        "ram_offset": 0,
+        "board_offset": 6384,
+        "level": 3,
+        "person": 78,
+        "boxes": [
+          44,
+          68,
+          77
+        ],
+        "steps": 36,
+        "pushes": 14,
+        "history_head": 36,
+        "history_count": 36,
+        "done": true,
+        "ready": true,
+        "painted": true
+      }
+    },
+    {
+      "test": "load 04",
+      "expected": {
+        "level": 4,
+        "boxes": [
+          46,
+          79,
+          80
+        ],
+        "person": 47,
+        "steps": 0,
+        "pushes": 0,
+        "done": false
+      },
+      "native": {
+        "ram_offset": 0,
+        "board_offset": 6384,
+        "level": 4,
+        "person": 47,
+        "boxes": [
+          46,
+          79,
+          80
+        ],
+        "steps": 0,
+        "pushes": 0,
+        "history_head": 0,
+        "history_count": 0,
+        "done": false,
+        "ready": true,
+        "painted": true
+      }
+    },
+    {
+      "test": "solution 04 at 59",
+      "expected": {
+        "level": 4,
+        "boxes": [
+          34,
+          55,
+          67
+        ],
+        "person": 46,
+        "steps": 59,
+        "pushes": 25,
+        "done": true
+      },
+      "native": {
+        "ram_offset": 0,
+        "board_offset": 6384,
+        "level": 4,
+        "person": 46,
+        "boxes": [
+          34,
+          55,
+          67
+        ],
+        "steps": 59,
+        "pushes": 25,
+        "history_head": 59,
+        "history_count": 59,
+        "done": true,
+        "ready": true,
+        "painted": true
+      }
+    },
+    {
+      "test": "load 05",
+      "expected": {
+        "level": 5,
+        "boxes": [
+          54,
+          75,
+          77
+        ],
+        "person": 74,
+        "steps": 0,
+        "pushes": 0,
+        "done": false
+      },
+      "native": {
+        "ram_offset": 0,
+        "board_offset": 6384,
+        "level": 5,
+        "person": 74,
+        "boxes": [
+          54,
+          75,
+          77
+        ],
+        "steps": 0,
+        "pushes": 0,
+        "history_head": 0,
+        "history_count": 0,
+        "done": false,
+        "ready": true,
+        "painted": true
+      }
+    },
+    {
+      "test": "solution 05 at 23",
+      "expected": {
+        "level": 5,
+        "boxes": [
+          53,
+          54,
+          82
+        ],
+        "person": 81,
+        "steps": 23,
+        "pushes": 13,
+        "done": true
+      },
+      "native": {
+        "ram_offset": 0,
+        "board_offset": 6384,
+        "level": 5,
+        "person": 81,
+        "boxes": [
+          53,
+          54,
+          82
+        ],
+        "steps": 23,
+        "pushes": 13,
+        "history_head": 23,
+        "history_count": 23,
+        "done": true,
+        "ready": true,
+        "painted": true
+      }
+    },
+    {
+      "test": "load 06",
+      "expected": {
+        "level": 6,
+        "boxes": [
+          43,
+          46,
+          70
+        ],
+        "person": 32,
+        "steps": 0,
+        "pushes": 0,
+        "done": false
+      },
+      "native": {
+        "ram_offset": 0,
+        "board_offset": 6384,
+        "level": 6,
+        "person": 32,
+        "boxes": [
+          43,
+          46,
+          70
+        ],
+        "steps": 0,
+        "pushes": 0,
+        "history_head": 0,
+        "history_count": 0,
+        "done": false,
+        "ready": true,
+        "painted": true
+      }
+    },
+    {
+      "test": "solution 06 at 64",
+      "expected": {
+        "level": 6,
+        "boxes": [
+          30,
+          58,
+          79
+        ],
+        "person": 82,
+        "steps": 64,
+        "pushes": 27,
+        "done": false
+      },
+      "native": {
+        "ram_offset": 0,
+        "board_offset": 6384,
+        "level": 6,
+        "person": 82,
+        "boxes": [
+          30,
+          58,
+          79
+        ],
+        "steps": 64,
+        "pushes": 27,
+        "history_head": 64,
+        "history_count": 64,
+        "done": false,
+        "ready": true,
+        "painted": true
+      }
+    },
+    {
+      "test": "solution 06 at 81",
+      "expected": {
+        "level": 6,
+        "boxes": [
+          30,
+          58,
+          69
+        ],
+        "person": 81,
+        "steps": 81,
+        "pushes": 34,
+        "done": true
+      },
+      "native": {
+        "ram_offset": 0,
+        "board_offset": 6384,
+        "level": 6,
+        "person": 81,
+        "boxes": [
+          30,
+          58,
+          69
+        ],
+        "steps": 81,
+        "pushes": 34,
+        "history_head": 81,
+        "history_count": 81,
+        "done": true,
+        "ready": true,
+        "painted": true
+      }
+    },
+    {
+      "test": "load 07",
+      "expected": {
+        "level": 7,
+        "boxes": [
+          30,
+          32,
+          82
+        ],
+        "person": 54,
+        "steps": 0,
+        "pushes": 0,
+        "done": false
+      },
+      "native": {
+        "ram_offset": 0,
+        "board_offset": 6384,
+        "level": 7,
+        "person": 54,
+        "boxes": [
+          30,
+          32,
+          82
+        ],
+        "steps": 0,
+        "pushes": 0,
+        "history_head": 0,
+        "history_count": 0,
+        "done": false,
+        "ready": true,
+        "painted": true
+      }
+    },
+    {
+      "test": "solution 07 at 64",
+      "expected": {
+        "level": 7,
+        "boxes": [
+          30,
+          68,
+          82
+        ],
+        "person": 15,
+        "steps": 64,
+        "pushes": 21,
+        "done": false
+      },
+      "native": {
+        "ram_offset": 0,
+        "board_offset": 6384,
+        "level": 7,
+        "person": 15,
+        "boxes": [
+          30,
+          68,
+          82
+        ],
+        "steps": 64,
+        "pushes": 21,
+        "history_head": 64,
+        "history_count": 64,
+        "done": false,
+        "ready": true,
+        "painted": true
+      }
+    },
+    {
+      "test": "solution 07 at 69",
+      "expected": {
+        "level": 7,
+        "boxes": [
+          54,
+          68,
+          82
+        ],
+        "person": 42,
+        "steps": 69,
+        "pushes": 23,
+        "done": true
+      },
+      "native": {
+        "ram_offset": 0,
+        "board_offset": 6384,
+        "level": 7,
+        "person": 42,
+        "boxes": [
+          54,
+          68,
+          82
+        ],
+        "steps": 69,
+        "pushes": 23,
+        "history_head": 69,
+        "history_count": 69,
+        "done": true,
+        "ready": true,
+        "painted": true
+      }
+    },
+    {
+      "test": "load 08",
+      "expected": {
+        "level": 8,
+        "boxes": [
+          26,
+          58,
+          67,
+          77
+        ],
+        "person": 70,
+        "steps": 0,
+        "pushes": 0,
+        "done": false
+      },
+      "native": {
+        "ram_offset": 0,
+        "board_offset": 6384,
+        "level": 8,
+        "person": 70,
+        "boxes": [
+          26,
+          58,
+          67,
+          77
+        ],
+        "steps": 0,
+        "pushes": 0,
+        "history_head": 0,
+        "history_count": 0,
+        "done": false,
+        "ready": true,
+        "painted": true
+      }
+    },
+    {
+      "test": "solution 08 at 59",
+      "expected": {
+        "level": 8,
+        "boxes": [
+          31,
+          50,
+          52,
+          67
+        ],
+        "person": 30,
+        "steps": 59,
+        "pushes": 22,
+        "done": true
+      },
+      "native": {
+        "ram_offset": 0,
+        "board_offset": 6384,
+        "level": 8,
+        "person": 30,
+        "boxes": [
+          31,
+          50,
+          52,
+          67
+        ],
+        "steps": 59,
+        "pushes": 22,
+        "history_head": 59,
+        "history_count": 59,
+        "done": true,
+        "ready": true,
+        "painted": true
+      }
+    },
+    {
+      "test": "load 09",
+      "expected": {
+        "level": 9,
+        "boxes": [
+          26,
+          27,
+          55,
+          75
+        ],
+        "person": 14,
+        "steps": 0,
+        "pushes": 0,
+        "done": false
+      },
+      "native": {
+        "ram_offset": 0,
+        "board_offset": 6384,
+        "level": 9,
+        "person": 14,
+        "boxes": [
+          26,
+          27,
+          55,
+          75
+        ],
+        "steps": 0,
+        "pushes": 0,
+        "history_head": 0,
+        "history_count": 0,
+        "done": false,
+        "ready": true,
+        "painted": true
+      }
+    },
+    {
+      "test": "solution 09 at 53",
+      "expected": {
+        "level": 9,
+        "boxes": [
+          27,
+          29,
+          74,
+          78
+        ],
+        "person": 39,
+        "steps": 53,
+        "pushes": 25,
+        "done": true
+      },
+      "native": {
+        "ram_offset": 0,
+        "board_offset": 6384,
+        "level": 9,
+        "person": 39,
+        "boxes": [
+          27,
+          29,
+          74,
+          78
+        ],
+        "steps": 53,
+        "pushes": 25,
+        "history_head": 53,
+        "history_count": 53,
+        "done": true,
+        "ready": true,
+        "painted": true
+      }
+    },
+    {
+      "test": "load 10",
+      "expected": {
+        "level": 10,
+        "boxes": [
+          29,
+          30,
+          76,
+          77
+        ],
+        "person": 87,
+        "steps": 0,
+        "pushes": 0,
+        "done": false
+      },
+      "native": {
+        "ram_offset": 0,
+        "board_offset": 6384,
+        "level": 10,
+        "person": 87,
+        "boxes": [
+          29,
+          30,
+          76,
+          77
+        ],
+        "steps": 0,
+        "pushes": 0,
+        "history_head": 0,
+        "history_count": 0,
+        "done": false,
+        "ready": true,
+        "painted": true
+      }
+    },
+    {
+      "test": "solution 10 at 60",
+      "expected": {
+        "level": 10,
+        "boxes": [
+          22,
+          41,
+          52,
+          77
+        ],
+        "person": 34,
+        "steps": 60,
+        "pushes": 32,
+        "done": true
+      },
+      "native": {
+        "ram_offset": 0,
+        "board_offset": 6384,
+        "level": 10,
+        "person": 34,
+        "boxes": [
+          22,
+          41,
+          52,
+          77
+        ],
+        "steps": 60,
+        "pushes": 32,
+        "history_head": 60,
+        "history_count": 60,
+        "done": true,
+        "ready": true,
+        "painted": true
+      }
+    },
+    {
+      "test": "load 11",
+      "expected": {
+        "level": 11,
+        "boxes": [
+          22,
+          39,
+          81,
+          83
+        ],
+        "person": 82,
+        "steps": 0,
+        "pushes": 0,
+        "done": false
+      },
+      "native": {
+        "ram_offset": 0,
+        "board_offset": 6384,
+        "level": 11,
+        "person": 82,
+        "boxes": [
+          22,
+          39,
+          81,
+          83
+        ],
+        "steps": 0,
+        "pushes": 0,
+        "history_head": 0,
+        "history_count": 0,
+        "done": false,
+        "ready": true,
+        "painted": true
+      }
+    },
+    {
+      "test": "solution 11 at 16",
+      "expected": {
+        "level": 11,
+        "boxes": [
+          22,
+          26,
+          27,
+          83
+        ],
+        "person": 39,
+        "steps": 16,
+        "pushes": 12,
+        "done": true
+      },
+      "native": {
+        "ram_offset": 0,
+        "board_offset": 6384,
+        "level": 11,
+        "person": 39,
+        "boxes": [
+          22,
+          26,
+          27,
+          83
+        ],
+        "steps": 16,
+        "pushes": 12,
+        "history_head": 16,
+        "history_count": 16,
+        "done": true,
+        "ready": true,
+        "painted": true
+      }
+    },
+    {
+      "test": "load 12",
+      "expected": {
+        "level": 12,
+        "boxes": [
+          51,
+          53,
+          58,
+          75
+        ],
+        "person": 21,
+        "steps": 0,
+        "pushes": 0,
+        "done": false
+      },
+      "native": {
+        "ram_offset": 0,
+        "board_offset": 6384,
+        "level": 12,
+        "person": 21,
+        "boxes": [
+          51,
+          53,
+          58,
+          75
+        ],
+        "steps": 0,
+        "pushes": 0,
+        "history_head": 0,
+        "history_count": 0,
+        "done": false,
+        "ready": true,
+        "painted": true
+      }
+    },
+    {
+      "test": "solution 12 at 64",
+      "expected": {
+        "level": 12,
+        "boxes": [
+          40,
+          74,
+          75,
+          77
+        ],
+        "person": 91,
+        "steps": 64,
+        "pushes": 32,
+        "done": false
+      },
+      "native": {
+        "ram_offset": 0,
+        "board_offset": 6384,
+        "level": 12,
+        "person": 91,
+        "boxes": [
+          40,
+          74,
+          75,
+          77
+        ],
+        "steps": 64,
+        "pushes": 32,
+        "history_head": 64,
+        "history_count": 64,
+        "done": false,
+        "ready": true,
+        "painted": true
+      }
+    },
+    {
+      "test": "solution 12 at 84",
+      "expected": {
+        "level": 12,
+        "boxes": [
+          40,
+          41,
+          50,
+          51
+        ],
+        "person": 63,
+        "steps": 84,
+        "pushes": 39,
+        "done": true
+      },
+      "native": {
+        "ram_offset": 0,
+        "board_offset": 6384,
+        "level": 12,
+        "person": 63,
+        "boxes": [
+          40,
+          41,
+          50,
+          51
+        ],
+        "steps": 84,
+        "pushes": 39,
+        "history_head": 84,
+        "history_count": 84,
+        "done": true,
+        "ready": true,
+        "painted": true
+      }
+    },
+    {
+      "test": "load 13",
+      "expected": {
+        "level": 13,
+        "boxes": [
+          22,
+          76,
+          79,
+          82
+        ],
+        "person": 95,
+        "steps": 0,
+        "pushes": 0,
+        "done": false
+      },
+      "native": {
+        "ram_offset": 0,
+        "board_offset": 6384,
+        "level": 13,
+        "person": 95,
+        "boxes": [
+          22,
+          76,
+          79,
+          82
+        ],
+        "steps": 0,
+        "pushes": 0,
+        "history_head": 0,
+        "history_count": 0,
+        "done": false,
+        "ready": true,
+        "painted": true
+      }
+    },
+    {
+      "test": "solution 13 at 25",
+      "expected": {
+        "level": 13,
+        "boxes": [
+          22,
+          28,
+          43,
+          76
+        ],
+        "person": 55,
+        "steps": 25,
+        "pushes": 13,
+        "done": true
+      },
+      "native": {
+        "ram_offset": 0,
+        "board_offset": 6384,
+        "level": 13,
+        "person": 55,
+        "boxes": [
+          22,
+          28,
+          43,
+          76
+        ],
+        "steps": 25,
+        "pushes": 13,
+        "history_head": 25,
+        "history_count": 25,
+        "done": true,
+        "ready": true,
+        "painted": true
+      }
+    },
+    {
+      "test": "load 14",
+      "expected": {
+        "level": 14,
+        "boxes": [
+          53,
+          75,
+          77,
+          82
+        ],
+        "person": 83,
+        "steps": 0,
+        "pushes": 0,
+        "done": false
+      },
+      "native": {
+        "ram_offset": 0,
+        "board_offset": 6384,
+        "level": 14,
+        "person": 83,
+        "boxes": [
+          53,
+          75,
+          77,
+          82
+        ],
+        "steps": 0,
+        "pushes": 0,
+        "history_head": 0,
+        "history_count": 0,
+        "done": false,
+        "ready": true,
+        "painted": true
+      }
+    },
+    {
+      "test": "solution 14 at 50",
+      "expected": {
+        "level": 14,
+        "boxes": [
+          41,
+          66,
+          67,
+          77
+        ],
+        "person": 55,
+        "steps": 50,
+        "pushes": 17,
+        "done": true
+      },
+      "native": {
+        "ram_offset": 0,
+        "board_offset": 6384,
+        "level": 14,
+        "person": 55,
+        "boxes": [
+          41,
+          66,
+          67,
+          77
+        ],
+        "steps": 50,
+        "pushes": 17,
+        "history_head": 50,
+        "history_count": 50,
+        "done": true,
+        "ready": true,
+        "painted": true
+      }
+    },
+    {
+      "test": "load 15",
+      "expected": {
+        "level": 15,
+        "boxes": [
+          30,
+          32,
+          50,
+          52,
+          74
+        ],
+        "person": 33,
+        "steps": 0,
+        "pushes": 0,
+        "done": false
+      },
+      "native": {
+        "ram_offset": 0,
+        "board_offset": 6384,
+        "level": 15,
+        "person": 33,
+        "boxes": [
+          30,
+          32,
+          50,
+          52,
+          74
+        ],
+        "steps": 0,
+        "pushes": 0,
+        "history_head": 0,
+        "history_count": 0,
+        "done": false,
+        "ready": true,
+        "painted": true
+      }
+    },
+    {
+      "test": "solution 15 at 21",
+      "expected": {
+        "level": 15,
+        "boxes": [
+          29,
+          43,
+          50,
+          74,
+          81
+        ],
+        "person": 80,
+        "steps": 21,
+        "pushes": 10,
+        "done": true
+      },
+      "native": {
+        "ram_offset": 0,
+        "board_offset": 6384,
+        "level": 15,
+        "person": 80,
+        "boxes": [
+          29,
+          43,
+          50,
+          74,
+          81
+        ],
+        "steps": 21,
+        "pushes": 10,
+        "history_head": 21,
+        "history_count": 21,
+        "done": true,
+        "ready": true,
+        "painted": true
+      }
+    },
+    {
+      "test": "load 16",
+      "expected": {
+        "level": 16,
+        "boxes": [
+          16,
+          31,
+          38,
+          51,
+          78
+        ],
+        "person": 50,
+        "steps": 0,
+        "pushes": 0,
+        "done": false
+      },
+      "native": {
+        "ram_offset": 0,
+        "board_offset": 6384,
+        "level": 16,
+        "person": 50,
+        "boxes": [
+          16,
+          31,
+          38,
+          51,
+          78
+        ],
+        "steps": 0,
+        "pushes": 0,
+        "history_head": 0,
+        "history_count": 0,
+        "done": false,
+        "ready": true,
+        "painted": true
+      }
+    },
+    {
+      "test": "solution 16 at 41",
+      "expected": {
+        "level": 16,
+        "boxes": [
+          16,
+          26,
+          39,
+          43,
+          56
+        ],
+        "person": 51,
+        "steps": 41,
+        "pushes": 13,
+        "done": true
+      },
+      "native": {
+        "ram_offset": 0,
+        "board_offset": 6384,
+        "level": 16,
+        "person": 51,
+        "boxes": [
+          16,
+          26,
+          39,
+          43,
+          56
+        ],
+        "steps": 41,
+        "pushes": 13,
+        "history_head": 41,
+        "history_count": 41,
+        "done": true,
+        "ready": true,
+        "painted": true
+      }
+    },
+    {
+      "test": "load 17",
+      "expected": {
+        "level": 17,
+        "boxes": [
+          39,
+          58,
+          63,
+          66,
+          76
+        ],
+        "person": 88,
+        "steps": 0,
+        "pushes": 0,
+        "done": false
+      },
+      "native": {
+        "ram_offset": 0,
+        "board_offset": 6384,
+        "level": 17,
+        "person": 88,
+        "boxes": [
+          39,
+          58,
+          63,
+          66,
+          76
+        ],
+        "steps": 0,
+        "pushes": 0,
+        "history_head": 0,
+        "history_count": 0,
+        "done": false,
+        "ready": true,
+        "painted": true
+      }
+    },
+    {
+      "test": "solution 17 at 64",
+      "expected": {
+        "level": 17,
+        "boxes": [
+          19,
+          39,
+          42,
+          57,
+          63
+        ],
+        "person": 51,
+        "steps": 64,
+        "pushes": 25,
+        "done": false
+      },
+      "native": {
+        "ram_offset": 0,
+        "board_offset": 6384,
+        "level": 17,
+        "person": 51,
+        "boxes": [
+          19,
+          39,
+          42,
+          57,
+          63
+        ],
+        "steps": 64,
+        "pushes": 25,
+        "history_head": 64,
+        "history_count": 64,
+        "done": false,
+        "ready": true,
+        "painted": true
+      }
+    },
+    {
+      "test": "solution 17 at 115",
+      "expected": {
+        "level": 17,
+        "boxes": [
+          18,
+          19,
+          31,
+          44,
+          64
+        ],
+        "person": 45,
+        "steps": 115,
+        "pushes": 47,
+        "done": true
+      },
+      "native": {
+        "ram_offset": 0,
+        "board_offset": 6384,
+        "level": 17,
+        "person": 45,
+        "boxes": [
+          18,
+          19,
+          31,
+          44,
+          64
+        ],
+        "steps": 115,
+        "pushes": 47,
+        "history_head": 115,
+        "history_count": 115,
+        "done": true,
+        "ready": true,
+        "painted": true
+      }
+    },
+    {
+      "test": "load 18",
+      "expected": {
+        "level": 18,
+        "boxes": [
+          18,
+          42,
+          58,
+          67,
+          81
+        ],
+        "person": 94,
+        "steps": 0,
+        "pushes": 0,
+        "done": false
+      },
+      "native": {
+        "ram_offset": 0,
+        "board_offset": 6384,
+        "level": 18,
+        "person": 94,
+        "boxes": [
+          18,
+          42,
+          58,
+          67,
+          81
+        ],
+        "steps": 0,
+        "pushes": 0,
+        "history_head": 0,
+        "history_count": 0,
+        "done": false,
+        "ready": true,
+        "painted": true
+      }
+    },
+    {
+      "test": "solution 18 at 64",
+      "expected": {
+        "level": 18,
+        "boxes": [
+          18,
+          34,
+          40,
+          51,
+          56
+        ],
+        "person": 27,
+        "steps": 64,
+        "pushes": 32,
+        "done": false
+      },
+      "native": {
+        "ram_offset": 0,
+        "board_offset": 6384,
+        "level": 18,
+        "person": 27,
+        "boxes": [
+          18,
+          34,
+          40,
+          51,
+          56
+        ],
+        "steps": 64,
+        "pushes": 32,
+        "history_head": 64,
+        "history_count": 64,
+        "done": false,
+        "ready": true,
+        "painted": true
+      }
+    },
+    {
+      "test": "solution 18 at 78",
+      "expected": {
+        "level": 18,
+        "boxes": [
+          18,
+          34,
+          39,
+          56,
+          76
+        ],
+        "person": 75,
+        "steps": 78,
+        "pushes": 38,
+        "done": true
+      },
+      "native": {
+        "ram_offset": 0,
+        "board_offset": 6384,
+        "level": 18,
+        "person": 75,
+        "boxes": [
+          18,
+          34,
+          39,
+          56,
+          76
+        ],
+        "steps": 78,
+        "pushes": 38,
+        "history_head": 78,
+        "history_count": 78,
+        "done": true,
+        "ready": true,
+        "painted": true
+      }
+    },
+    {
+      "test": "load 19",
+      "expected": {
+        "level": 19,
+        "boxes": [
+          51,
+          70,
+          76,
+          77,
+          80
+        ],
+        "person": 75,
+        "steps": 0,
+        "pushes": 0,
+        "done": false
+      },
+      "native": {
+        "ram_offset": 0,
+        "board_offset": 6384,
+        "level": 19,
+        "person": 75,
+        "boxes": [
+          51,
+          70,
+          76,
+          77,
+          80
+        ],
+        "steps": 0,
+        "pushes": 0,
+        "history_head": 0,
+        "history_count": 0,
+        "done": false,
+        "ready": true,
+        "painted": true
+      }
+    },
+    {
+      "test": "solution 19 at 64",
+      "expected": {
+        "level": 19,
+        "boxes": [
+          28,
+          65,
+          74,
+          79,
+          81
+        ],
+        "person": 75,
+        "steps": 64,
+        "pushes": 17,
+        "done": false
+      },
+      "native": {
+        "ram_offset": 0,
+        "board_offset": 6384,
+        "level": 19,
+        "person": 75,
+        "boxes": [
+          28,
+          65,
+          74,
+          79,
+          81
+        ],
+        "steps": 64,
+        "pushes": 17,
+        "history_head": 64,
+        "history_count": 64,
+        "done": false,
+        "ready": true,
+        "painted": true
+      }
+    },
+    {
+      "test": "solution 19 at 70",
+      "expected": {
+        "level": 19,
+        "boxes": [
+          28,
+          50,
+          65,
+          79,
+          81
+        ],
+        "person": 62,
+        "steps": 70,
+        "pushes": 19,
+        "done": true
+      },
+      "native": {
+        "ram_offset": 0,
+        "board_offset": 6384,
+        "level": 19,
+        "person": 62,
+        "boxes": [
+          28,
+          50,
+          65,
+          79,
+          81
+        ],
+        "steps": 70,
+        "pushes": 19,
+        "history_head": 70,
+        "history_count": 70,
+        "done": true,
+        "ready": true,
+        "painted": true
+      }
+    },
+    {
+      "test": "load 20",
+      "expected": {
+        "level": 20,
+        "boxes": [
+          27,
+          34,
+          56,
+          70,
+          82
+        ],
+        "person": 33,
+        "steps": 0,
+        "pushes": 0,
+        "done": false
+      },
+      "native": {
+        "ram_offset": 0,
+        "board_offset": 6384,
+        "level": 20,
+        "person": 33,
+        "boxes": [
+          27,
+          34,
+          56,
+          70,
+          82
+        ],
+        "steps": 0,
+        "pushes": 0,
+        "history_head": 0,
+        "history_count": 0,
+        "done": false,
+        "ready": true,
+        "painted": true
+      }
+    },
+    {
+      "test": "solution 20 at 64",
+      "expected": {
+        "level": 20,
+        "boxes": [
+          27,
+          33,
+          34,
+          51,
+          82
+        ],
+        "person": 46,
+        "steps": 64,
+        "pushes": 27,
+        "done": false
+      },
+      "native": {
+        "ram_offset": 0,
+        "board_offset": 6384,
+        "level": 20,
+        "person": 46,
+        "boxes": [
+          27,
+          33,
+          34,
+          51,
+          82
+        ],
+        "steps": 64,
+        "pushes": 27,
+        "history_head": 64,
+        "history_count": 64,
+        "done": false,
+        "ready": true,
+        "painted": true
+      }
+    },
+    {
+      "test": "solution 20 at 125",
+      "expected": {
+        "level": 20,
+        "boxes": [
+          34,
+          53,
+          67,
+          69,
+          92
+        ],
+        "person": 52,
+        "steps": 125,
+        "pushes": 46,
+        "done": true
+      },
+      "native": {
+        "ram_offset": 0,
+        "board_offset": 6384,
+        "level": 20,
+        "person": 52,
+        "boxes": [
+          34,
+          53,
+          67,
+          69,
+          92
+        ],
+        "steps": 125,
+        "pushes": 46,
+        "history_head": 125,
+        "history_count": 125,
+        "done": true,
+        "ready": true,
+        "painted": true
+      }
+    },
+    {
+      "test": "next wraps 20 to 1",
+      "expected": {
+        "level": 1,
+        "boxes": [
+          28,
+          32,
+          58
+        ],
+        "person": 54,
+        "steps": 0,
+        "pushes": 0,
+        "done": false
+      },
+      "native": {
+        "ram_offset": 0,
+        "board_offset": 6384,
+        "level": 1,
+        "person": 54,
+        "boxes": [
+          28,
+          32,
+          58
+        ],
+        "steps": 0,
+        "pushes": 0,
+        "history_head": 0,
+        "history_count": 0,
+        "done": false,
+        "ready": true,
+        "painted": true
+      }
+    },
+    {
+      "test": "previous wraps 1 to 20",
+      "expected": {
+        "level": 20,
+        "boxes": [
+          27,
+          34,
+          56,
+          70,
+          82
+        ],
+        "person": 33,
+        "steps": 0,
+        "pushes": 0,
+        "done": false
+      },
+      "native": {
+        "ram_offset": 0,
+        "board_offset": 6384,
+        "level": 20,
+        "person": 33,
+        "boxes": [
+          27,
+          34,
+          56,
+          70,
+          82
+        ],
+        "steps": 0,
+        "pushes": 0,
+        "history_head": 0,
+        "history_count": 0,
+        "done": false,
+        "ready": true,
+        "painted": true
+      }
+    },
+    {
+      "test": "finish on fresh first level",
+      "expected": {
+        "level": 1,
+        "boxes": [
+          28,
+          32,
+          58
+        ],
+        "person": 54,
+        "steps": 0,
+        "pushes": 0,
+        "done": false
+      },
+      "native": {
+        "ram_offset": 0,
+        "board_offset": 6384,
+        "level": 1,
+        "person": 54,
+        "boxes": [
+          28,
+          32,
+          58
+        ],
+        "steps": 0,
+        "pushes": 0,
+        "history_head": 0,
+        "history_count": 0,
+        "done": false,
+        "ready": true,
+        "painted": true
+      }
+    }
+  ]
+}

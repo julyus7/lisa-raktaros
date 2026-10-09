@@ -1,0 +1,73 @@
+{
+  "native_os": "Lisa Office System 3.1",
+  "emulator_pid": 9893,
+  "fresh_emulator_process": true,
+  "source_floppy_inserted": false,
+  "disk": "/root/amoba/Sokoban/GamesRaktarosTest.dc42",
+  "tool_id": 242,
+  "checks": [
+    {
+      "test": "fresh hard disk launch",
+      "state": {
+        "ram_offset": 994730,
+        "board_offset": 1001114,
+        "level": 1,
+        "person": 54,
+        "boxes": [
+          28,
+          32,
+          58
+        ],
+        "steps": 0,
+        "pushes": 0,
+        "history_head": 0,
+        "history_count": 0,
+        "done": false,
+        "ready": true,
+        "painted": true
+      }
+    },
+    {
+      "test": "installed game moves down",
+      "state": {
+        "ram_offset": 994730,
+        "board_offset": 1001114,
+        "level": 1,
+        "person": 66,
+        "boxes": [
+          28,
+          32,
+          58
+        ],
+        "steps": 1,
+        "pushes": 0,
+        "history_head": 1,
+        "history_count": 1,
+        "done": false,
+        "ready": true,
+        "painted": true
+      }
+    },
+    {
+      "test": "installed game undoes move",
+      "state": {
+        "ram_offset": 994730,
+        "board_offset": 1001114,
+        "level": 1,
+        "person": 54,
+        "boxes": [
+          28,
+          32,
+          58
+        ],
+        "steps": 0,
+        "pushes": 0,
+        "history_head": 2048,
+        "history_count": 0,
+        "done": false,
+        "ready": true,
+        "painted": true
+      }
+    }
+  ]
+}

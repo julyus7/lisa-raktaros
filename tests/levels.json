@@ -1,0 +1,382 @@
+[
+  {
+    "seed": 242001,
+    "width": 12,
+    "height": 9,
+    "rows": [
+      "############",
+      "#       .  #",
+      "#  $ # $   #",
+      "##    #    #",
+      "# .  @  #$ #",
+      "#          #",
+      "## # #  .  #",
+      "#    # ##  #",
+      "############"
+    ],
+    "solution": "swwsawwawaadsswawdsddwddsddsdssdssawwdwwwwsaawaaadadswadswsddaawddswddsawsawaaadddaddsdsswsswswswwwwsawadadaassssaadawsaddsddwdwwwdwswadsadssssswsadwsadadadadadwswsawwwdwwadasssdsa",
+    "solution_pushes": 32,
+    "boxes": 3
+  },
+  {
+    "seed": 242003,
+    "width": 12,
+    "height": 9,
+    "rows": [
+      "############",
+      "#   #  .  ##",
+      "# #     #  #",
+      "#          #",
+      "#  @   ### #",
+      "##     #  .#",
+      "# #.$  $ $ #",
+      "#          #",
+      "############"
+    ],
+    "solution": "adwdaaswswdaaswswsdddassdsawwwssswsdddwwswwwwwasssdsswwsssaadadwwdwswaaasadawadadawddddddddwwadsdsssaaswssdawaaasadddaaaaaawsddaadddddaadaaadwswdsdwwwwaadwddsdwassawdasssdsdwswsdddwaswaaaasadwswa",
+    "solution_pushes": 36,
+    "boxes": 3
+  },
+  {
+    "seed": 242004,
+    "width": 12,
+    "height": 9,
+    "rows": [
+      "############",
+      "#    ##   ##",
+      "# #@   # $ #",
+      "##  #$ .   #",
+      "#   #      #",
+      "#      .   #",
+      "#   .  # $ #",
+      "#   #      #",
+      "############"
+    ],
+    "solution": "wdadadadaadswssasdawdswsawsaddwsadawdwsswsaasdwwdwwdadaaaswdddaadsddsssdssdadawsadddaaddwsadddaadawsdwwwdwwsaawwdsssdswwswwadsssswswaasdsaddadaaaadawsadwaaasadadawwdwwadadswsswwadassadasswsdadawswdwasswsdwdwdaw",
+    "solution_pushes": 22,
+    "boxes": 3
+  },
+  {
+    "seed": 242007,
+    "width": 12,
+    "height": 9,
+    "rows": [
+      "############",
+      "#     #    #",
+      "##       .##",
+      "#     #  $@#",
+      "#     .   ##",
+      "#     .    #",
+      "####  $$   #",
+      "#          #",
+      "############"
+    ],
+    "solution": "asawaswwwddadssdawwadadadswswdadasaaaaawaaadsddwdadssadssasswsadddwwsswsdddawasaadadwdsaaawsaddawsaaadddddaawswwswsddddsdadaddwsaaddadwwsswsadaadadadaddawwwwd",
+    "solution_pushes": 25,
+    "boxes": 3
+  },
+  {
+    "seed": 242008,
+    "width": 12,
+    "height": 9,
+    "rows": [
+      "############",
+      "#  #    #  #",
+      "#  # #     #",
+      "#          #",
+      "#   .*##   #",
+      "##  #      #",
+      "#@$ $    . #",
+      "#  ##      #",
+      "############"
+    ],
+    "solution": "sdawsdawsdadadadawsdawsdadadadadawsdadawswswswswswswsdawswswswswsdadawswsdadawswswswsdawsdawswswsdadawswswsdawswsdawsdadawsdawswsdadadawsdawsdadadawswswsdawswswsdawswswsdadwwwadwawssdawwwdaswdssawwswswssswsddwassdwssddswdddwwswdwwwsasawwasw",
+    "solution_pushes": 13,
+    "boxes": 3
+  },
+  {
+    "seed": 242011,
+    "width": 12,
+    "height": 9,
+    "rows": [
+      "############",
+      "#   #    # #",
+      "#    . @   #",
+      "#     $ #$##",
+      "#        . #",
+      "#     ##.$ #",
+      "# #        #",
+      "##    #  # #",
+      "############"
+    ],
+    "solution": "saaswwwdadsswdawasaawsdsssdaaaawdwdssssadwdddddwwddssswwswwswadswadadswssswswwswsaaaaaswsadaawddddswdwwadddswssaaddadwwaadaswdsasaaasadaadawdsdaaadadddadadadwsaaadddawdwwwsddwwddssdadsswswwssswswaaadwsddadadadswwswswsaaddadawsasawaawaaawsdsdswdddsdadawsdw",
+    "solution_pushes": 44,
+    "boxes": 3
+  },
+  {
+    "seed": 242012,
+    "width": 12,
+    "height": 9,
+    "rows": [
+      "############",
+      "##    #    #",
+      "#  ##$#$   #",
+      "#   #      #",
+      "#    +#    #",
+      "# #    .   #",
+      "##       * #",
+      "#          #",
+      "############"
+    ],
+    "solution": "aswsassadadawsadadadadadadwswdswdddsadawsddddaddadwsaadaddawwdswawwdwawaassssdddswwwwwaaaswdadadasdwdssssaswssaddaaddadawsaddaddaawsadddaawawsaasawawdddasdaaaaswswdddwwswaasdwdswasawwsawaddawwdasssdawwsdsdadaaaswdwdawasdsdssaswdddaswadaadswsdwwwawswawaswdwddaasadwdddssw",
+    "solution_pushes": 23,
+    "boxes": 3
+  },
+  {
+    "seed": 242014,
+    "width": 12,
+    "height": 9,
+    "rows": [
+      "############",
+      "#          #",
+      "#$    . #  #",
+      "#   # #    #",
+      "#. .     $ #",
+      "#     * #@##",
+      "### $ #    #",
+      "#         ##",
+      "############"
+    ],
+    "solution": "wwaadawwdaaswdddaddasswdsswadsaaaaaaaddwwdwdddsdadadwsawaadaaadswsaddadsdaddadsdaadwwsdswswwwsasasdssswwwdwsawadsswdwsadwwswadwadaadsswdwswsasdsassaddadadaasaaaadddddadwdawsdadawsadwsdadaaawssddwdaswdaswasdaaaaddwwsdasaawasaadwwaadwwdwwaasswwswswddaasddddaaadwaasdwasdwadsswwsadwdswdad",
+    "solution_pushes": 22,
+    "boxes": 4
+  },
+  {
+    "seed": 242015,
+    "width": 12,
+    "height": 9,
+    "rows": [
+      "############",
+      "#@#        #",
+      "#$* . #   ##",
+      "#          #",
+      "#  #  $    #",
+      "#          #",
+      "#.$##.   # #",
+      "#        # #",
+      "############"
+    ],
+    "solution": "sssswwwswddwdadadaddssdssassaadaaddadaaadadadaddadadadaddadaadaadddaaaddaaddddaadddaaddawwsddsdadadwwwdadawdwwsswwsswwsswwsswwadsadwadaassssdawwsdwswssddwadswssswswswwwssswswswswswwadadwadwadssaaswsaasdaaadaddaaaddadadaaadadddaaawwwwd",
+    "solution_pushes": 25,
+    "boxes": 4
+  },
+  {
+    "seed": 242016,
+    "width": 12,
+    "height": 9,
+    "rows": [
+      "############",
+      "##       . #",
+      "## #$$     #",
+      "# # .      #",
+      "# #. #     #",
+      "# # #      #",
+      "# #$*      #",
+      "# @  #     #",
+      "############"
+    ],
+    "solution": "adddadaaadadadawsddaddadaadadaadddadaaawwsswswwswwswwssswsswsdawsdddaaadadawswswswsdadddaaawsdadddaaadadadawswsdddadawwssaawwwswwswswswssswwswwssssdddadaadaddaadaddawdddddsdwwwdwwsaaswadwwsdadawaaaaaadddddswaaaaddaadsdddwdsssswdwaswdwsasdawwaasssdsswwsdsddadwwsswwsawdadssaaawwswssadwaadwdwsadassdwdsddwwssaadwwwwwd",
+    "solution_pushes": 34,
+    "boxes": 4
+  },
+  {
+    "seed": 242018,
+    "width": 12,
+    "height": 9,
+    "rows": [
+      "############",
+      "#     #  * #",
+      "#..  #    ##",
+      "# $        #",
+      "#         ##",
+      "# #  #   # #",
+      "#       $@*#",
+      "#  #  ##   #",
+      "############"
+    ],
+    "solution": "sdawsdadadaaddawsaddawsaddaadwsaddawsdaaddawsadwsdadawsdawswsaddawswsadwsdaadwswsadadadadwswswsdadaadadadadwsadwsdaadaddawsdawswsadwswsdawswsaddawsadwswsdadawswsaddadaaddawsadadwsadwswsadadadadadaddadadadaaddadawsadwsdadawsadadwswsadwaaaaaaasawsdwdaawwwsdwsdsdssdawsdwswaaaddadswawwssdaaswdwdwwsssdaddaswaaaswswdaadaswdsawwswsswds",
+    "solution_pushes": 12,
+    "boxes": 4
+  },
+  {
+    "seed": 242019,
+    "width": 12,
+    "height": 9,
+    "rows": [
+      "############",
+      "#    #  @  #",
+      "#     #  # #",
+      "#  ..    # #",
+      "#.*#$    $ #",
+      "#       #  #",
+      "# $#     ###",
+      "#      #   #",
+      "############"
+    ],
+    "solution": "ddswswswadswssswwsssadadwwwswswwadswadswssssadwsadadadwsadwwwsssadadadwswwssadadwwswswsaaawswwwsdwsssdswswawaadasdwdsasaaaaawwawwddswaasddsdssdwdasdsdwadwasawwwswaawadasssasdddddsswddswadsdaddadadadadadadadadaawswaaddawwdadwaaaaddddadasssasaaaaddaadaadaddaadddaaadddaaddadadaadddaaaaddaadddaaadddadwwwdssawadsswwsswdasddawsaaaawwssdwwdddadwdswdw",
+    "solution_pushes": 39,
+    "boxes": 4
+  },
+  {
+    "seed": 242020,
+    "width": 12,
+    "height": 9,
+    "rows": [
+      "############",
+      "# #      * #",
+      "#  .       #",
+      "#   # .    #",
+      "#  #    #  #",
+      "# #       ##",
+      "###*  $ #$ #",
+      "#       # @#",
+      "############"
+    ],
+    "solution": "adadwswswsadwsadadwsadadwswswsadadwswsadwsadadwswsadwsadwswswsadwsadadadwsadadadadwsadwsadwsadadwswsadwsadadadwswsadadadadadadadadadadwsadadadwswsadwsadadwsadwsadwswsadwsadadwswsadwsadadadwswswsadwswswswswsadadwsadadadwsadadwsadwswswswswsadadadadwswsadwsadwsadadadwsadadwswsadadadadwsadwsadwsadadadwswsadwsadadwsawwwwdwwswswsaaaaaadddasdasaadsawdsdassddadawwws",
+    "solution_pushes": 13,
+    "boxes": 4
+  },
+  {
+    "seed": 242021,
+    "width": 12,
+    "height": 9,
+    "rows": [
+      "############",
+      "#     #    #",
+      "#     #    #",
+      "#   .#     #",
+      "##  $    ###",
+      "# #  ..  # #",
+      "# $ *    $@#",
+      "#        ###",
+      "############"
+    ],
+    "solution": "wswswswswswswswswswswswswswswswswswswswswswswswswswswswswswswswswswswswswswswswswswswswswswswswswswswswswswswswswswswswswswswswswswswswswswswswswswswswswswswswswswswswswswswswswswsaaasaawwswssadwwawdssswswsadaaadwwssaaddaawwssdddaaawsdawwswswsswwsswwswswswssddadwdsaaawddsddwdsdwwwwdddawwswadaadassaddwdwdaasddwssawwaadssdaswswswwwsswdaawdadddadaadsaawdsadswwsdawsssswawasdws",
+    "solution_pushes": 17,
+    "boxes": 4
+  },
+  {
+    "seed": 242022,
+    "width": 12,
+    "height": 9,
+    "rows": [
+      "############",
+      "#       #  #",
+      "#  #.$ $@# #",
+      "#     . #  #",
+      "#* $       #",
+      "#   ###    #",
+      "#*      .  #",
+      "#    #   ###",
+      "############"
+    ],
+    "solution": "awaadsawaadaaswssaddadssasdswddddasw",
+    "solution_pushes": 10,
+    "boxes": 5
+  },
+  {
+    "seed": 242023,
+    "width": 12,
+    "height": 9,
+    "rows": [
+      "############",
+      "#  * #     #",
+      "#.  # $#   #",
+      "#$. # .    #",
+      "#@$    . ###",
+      "##         #",
+      "#    $ #   #",
+      "#   #    # #",
+      "############"
+    ],
+    "solution": "wsdddddsddaddassadadwdawsdwaadsdwawwdwadsaddawwdadsswwssaawwddaadswaddsawaddswasdswswwasawssdawwswsdawaadaddsdadassswwwsswwwaadaddadaaswddddsaadasssddsswadswswwaassaaddaaadwwdadadasaaasadaawswswswsddadaadawswsdawsdawswswsdwwwssa",
+    "solution_pushes": 13,
+    "boxes": 5
+  },
+  {
+    "seed": 242024,
+    "width": 12,
+    "height": 9,
+    "rows": [
+      "############",
+      "# #  .. #  #",
+      "#  #  .  # #",
+      "# $    .   #",
+      "#        $ #",
+      "# $.#$     #",
+      "#  $  #    #",
+      "# #@##  #  #",
+      "############"
+    ],
+    "solution": "wwsdadadaddadadadadaaddwwwawdsdwssadwaasassdaaawwwwssswwswwwsssswsswwwsswwwwswsdawswswsswwsdadawsdadadadassssdawwwsddddddsswawsdsdddswwwwassdssawwwdwwwadadadswadadadadsswswswwadadswadadswadswadssaaaaasaaaddawdsaaawswsssswdawswswwssswswwwwsswdawswswddsddwwsaasaadasswwsswsswwwsswdawswwwswdawswsdsasswwwwsssswddddsdaddawwdsdwddadadaaaddssaddssadadwsadadadadwsawwwdwaawsdssawwsdssadsd",
+    "solution_pushes": 47,
+    "boxes": 5
+  },
+  {
+    "seed": 242026,
+    "width": 12,
+    "height": 9,
+    "rows": [
+      "############",
+      "#  # *  # ##",
+      "#        . #",
+      "# .  $     #",
+      "#      . $##",
+      "#     $    #",
+      "#  . ## $# #",
+      "# #    # @##",
+      "############"
+    ],
+    "solution": "adadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadawwddadawwsaasaaaadsaswawwwawwdadadssssasdwwsddssadawwwdwwdssdsaaasdsawaaswwswsswdawsdwwwawwdadadaswdadadadadaswdsswdsssdwswsssdaadadadadadwswwssdaddaaadadwswawawawsssdaswsw",
+    "solution_pushes": 38,
+    "boxes": 5
+  },
+  {
+    "seed": 242027,
+    "width": 12,
+    "height": 9,
+    "rows": [
+      "############",
+      "#    # #   #",
+      "# #.     # #",
+      "#     #  # #",
+      "#.$  #  #  #",
+      "#   .    $ #",
+      "# @$$#.$.  #",
+      "#       #  #",
+      "############"
+    ],
+    "solution": "sadddwwsswasdwsdaaaadawdsdaddaaawwwwswwswwsssswswwwswsswwwsswswwswssddwwsddswaawaaddaasssdsswdwwaddssddssdwdwsddwwadswadswasdwsssadawsdwwswwwswsadadwswsadsswwadswswswwwwsssswswwswwssswwsadwwssadadadadswwwswssadadwwswswswwaaswsasdwswwdaddsswssasdssawawawasdwwwdaawsadwsdsdwadsadadadwswsadadadawswadswdwdasaaddswwswswswdadaddaadaddswaadaddsssasdssadadwsadadadadwsadadadwsadwsadwwsaswwwsdaaadaddaaswswwsdassaaadadaddaaddaddwsaaaadwaadsaadawwsswswswsdwdw",
+    "solution_pushes": 23,
+    "boxes": 5
+  },
+  {
+    "seed": 242028,
+    "width": 12,
+    "height": 9,
+    "rows": [
+      "############",
+      "#  #  #    #",
+      "# $#   #@* #",
+      "#          #",
+      "#   .  $ # #",
+      "#     . .$ #",
+      "##  #    $ #",
+      "####   .   #",
+      "############"
+    ],
+    "solution": "sadwswsdaddsssswswswsadaaddwwwwadswaaswadddadssaaaaaaawaaswsddddawaswwswdwdwasdsddadadadssdssdadawwssddwswwswwsssadwswwswwwwwadssswswwswsadaasswwdaddswaaswadwwdadadaswadswdadadaadssswddaaaswdwwssddssssadwsadwasaaaddwawaaaasadawddwsdwsswsdddwwwddwwswswadaaadddswssadssasdsaadwsdawwdwwswsssasdwsawwaddwwwswwadsswwswadaadaadaddaadsssaaaawwswddsasswwwswadsdsawadaaadasaswwwwdassswwssswswwwwdssasswsddddaaswsadadwawwsawwwdaswswswdaswdadasswwdssasddaawsswdadwwwadasdsadww",
+    "solution_pushes": 46,
+    "boxes": 5
+  }
+]

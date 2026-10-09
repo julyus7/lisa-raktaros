@@ -1,0 +1,128 @@
+[
+  {
+    "test": "20 A/D movements finish with board unchanged",
+    "native": {
+      "ram_offset": 1237418,
+      "board_offset": 1243802,
+      "level": 1,
+      "person": 54,
+      "boxes": [
+        28,
+        32,
+        58
+      ],
+      "steps": 20,
+      "pushes": 0,
+      "history_head": 20,
+      "history_count": 20,
+      "done": false,
+      "ready": true,
+      "painted": true
+    }
+  },
+  {
+    "test": "uppercase S moves down",
+    "native": {
+      "ram_offset": 1237418,
+      "board_offset": 1243802,
+      "level": 1,
+      "person": 66,
+      "boxes": [
+        28,
+        32,
+        58
+      ],
+      "steps": 21,
+      "pushes": 0,
+      "history_head": 21,
+      "history_count": 21,
+      "done": false,
+      "ready": true,
+      "painted": true
+    }
+  },
+  {
+    "test": "uppercase Z undoes move",
+    "native": {
+      "ram_offset": 1237418,
+      "board_offset": 1243802,
+      "level": 1,
+      "person": 54,
+      "boxes": [
+        28,
+        32,
+        58
+      ],
+      "steps": 20,
+      "pushes": 0,
+      "history_head": 20,
+      "history_count": 20,
+      "done": false,
+      "ready": true,
+      "painted": true
+    }
+  },
+  {
+    "test": "uppercase N restarts",
+    "native": {
+      "ram_offset": 1237418,
+      "board_offset": 1243802,
+      "level": 1,
+      "person": 54,
+      "boxes": [
+        28,
+        32,
+        58
+      ],
+      "steps": 0,
+      "pushes": 0,
+      "history_head": 0,
+      "history_count": 0,
+      "done": false,
+      "ready": true,
+      "painted": true
+    }
+  },
+  {
+    "test": "crate cannot be pushed into wall",
+    "native": {
+      "ram_offset": 1237418,
+      "board_offset": 1243802,
+      "level": 1,
+      "person": 59,
+      "boxes": [
+        28,
+        32,
+        58
+      ],
+      "steps": 7,
+      "pushes": 0,
+      "history_head": 7,
+      "history_count": 7,
+      "done": false,
+      "ready": true,
+      "painted": true
+    }
+  },
+  {
+    "test": "leave fresh first level",
+    "native": {
+      "ram_offset": 1237418,
+      "board_offset": 1243802,
+      "level": 1,
+      "person": 54,
+      "boxes": [
+        28,
+        32,
+        58
+      ],
+      "steps": 0,
+      "pushes": 0,
+      "history_head": 0,
+      "history_count": 0,
+      "done": false,
+      "ready": true,
+      "painted": true
+    }
+  }
+]

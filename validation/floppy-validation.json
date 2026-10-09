@@ -1,0 +1,11 @@
+{
+  "tool_id": 242,
+  "image_bytes": 419284,
+  "image_sha256": "10b911d0cdabcb707fbc920edf1103cc4d0cc09a7977ca936483321113b9f165",
+  "executable_bytes": 11264,
+  "executable_sha256": "a3b40497a84ec622d6d76833304033aa0edadea9c375fd3afce6a29a3b979f2d",
+  "native_sony_tags_preserved": 800,
+  "icons_identical": 3,
+  "embedded_levels": 20,
+  "compiled_source_matches": true
+}
