@@ -7,7 +7,7 @@ Python prepares sources and images; Pascal compilation runs on the Lisa.
 
 ## Requirements
 
-- Apple Lisa or LisaEm with your own ROM, Workshop 3 and LOS 3 environment.
+- Real Apple Lisa 2 (2/5 or 2/10), or LisaEm with your own ROM, Workshop 3 and LOS 3 environment.
 - Workshop LOS interface objects and runtime libraries required by the `uses`
   clauses, including `IOSPASLIB.OBJ`, `SYS1LIB.OBJ` and `PRLIB.OBJ`.
 - Python 3.10+ for the included tools (standard library only).
