@@ -1,5 +1,13 @@
 # Raktaros (Sokoban) – Apple Lisa 2
 
+<!-- cover-art:start -->
+<p align="center">
+  <a href="artwork/cover-hu.png"><img src="artwork/cover-hu.png" width="320" alt="RAKTÁROS — Magyar borító"></a>
+  <a href="artwork/cover-en.png"><img src="artwork/cover-en.png" width="320" alt="SOKOBAN — English cover"></a>
+</p>
+<p align="center"><a href="artwork/cover-en.png">English cover</a> · <a href="artwork/cover-hu.png">Magyar borító</a></p>
+<!-- cover-art:end -->
+
 **Natív játék valódi Apple Lisa 2 számítógéphez (Lisa 2/5 és Lisa 2/10),
 Lisa Office System 3 alatt.** Ugyanez a kiadás LisaEm-ben is használható.
 
